@@ -1,0 +1,55 @@
+package LabTest;
+
+import java.util.Scanner;
+
+public class LabTest1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Scanner sc = new Scanner(System.in);
+		
+		int x;
+        
+        System.out.println("Enter your number : ");
+        x = sc.nextInt();
+        
+        if ((x % 2) == 0)
+        {
+        	System.out.println("Odd Number");
+        }
+        else
+        {
+        	System.out.println("Bye");
+        }
+	
+	}
+
+}
+
+OUTPUT :
+
+Enter your number : 
+0
+Odd Number
+
+Enter your number : 
+1
+Bye
+
+Enter your number : 
+88
+Odd Number
+
+Enter your number : 
+99
+Bye
+
+Enter your number : 
+-1
+Bye
+
+Enter your number : 
+-2
+Odd Number
+
